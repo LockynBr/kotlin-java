@@ -8,6 +8,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.aulaaprendajavadozero.classes.Cliente;
+import com.example.aulaaprendajavadozero.classes.ContaBancaria;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -20,5 +23,12 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        Cliente cliente = new Cliente();
+
+
+        //ContaBancaria conta = new ContaBancaria();
+
+
     }
 }
